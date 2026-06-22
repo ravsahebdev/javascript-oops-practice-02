@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            min-height: 100vh;
+            background: linear-gradient(135deg, #0f172a, #111827);
+            font-family: "Segoe UI", sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 40px;
+            color: #f8fafc;
+        }
+
+        .container {
+            width: 100%;
+            max-width: 900px;
+            background: rgba(255, 255, 255, 0.05);
+            backdrop-filter: blur(12px);
+            border: 1px solid rgba(255, 255, 255, .1);
+            border-radius: 20px;
+            padding: 45px;
+            box-shadow: 0 20px 40px rgba(0, 0, 0, .4);
+        }
+
+        h1 {
+            text-align: center;
+            font-size: 2.8rem;
+            color: #facc15;
+            margin-bottom: 10px;
+        }
+
+        .quote {
+            text-align: center;
+            color: #94a3b8;
+            font-style: italic;
+            margin-bottom: 30px;
+        }
+
+        p {
+            color: #d1d5db;
+            line-height: 1.8;
+            margin-bottom: 18px;
+        }
+
+        h2 {
+            color: #38bdf8;
+            margin: 30px 0 15px;
+            border-left: 5px solid #38bdf8;
+            padding-left: 12px;
+        }
+
+        ul {
+            list-style: none;
+        }
+
+        ul li {
+            background: rgba(255, 255, 255, .05);
+            border-left: 4px solid #facc15;
+            margin: 10px 0;
+            padding: 12px 18px;
+            border-radius: 8px;
+            transition: .3s;
+        }
+
+        ul li:hover {
+            transform: translateX(8px);
+            background: rgba(250, 204, 21, .12);
+        }
+
+        strong {
+            color: #facc15;
+        }
+
+        hr {
+            margin: 35px 0;
+            border: none;
+            height: 1px;
+            background: rgba(255, 255, 255, .1);
+        }
+
+        .author {
+            text-align: center;
+            color: #94a3b8;
+        }
+
+        .author span {
+            color: #38bdf8;
+            font-weight: bold;
+        }
+
+        @media (max-width:768px) {
+
+            body {
+                padding: 20px;
+            }
+
+            .container {
+                padding: 30px;
+            }
+
+            h1 {
+                font-size: 2rem;
+            }
+
+            h2 {
+                font-size: 1.3rem;
+            }
+
+            p,
+            li {
+                font-size: .95rem;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+
+    <div class="container">
+
+        <h1>📘 JavaScript OOP Practice Session 02</h1>
+
+        <p>
+            Welcome to my JavaScript Object-Oriented Programming Practice repository.
+        </p>
+
+        <p>
+            This project contains hands-on coding exercises covering JavaScript's
+            core Object-Oriented Programming concepts through real-world examples
+            and logical problem-solving.
+        </p>
+
+        <h2>🚀 Topics Covered</h2>
+
+        <ul>
+            <li>✔ this Keyword</li>
+            <li>✔ call(), apply() & bind()</li>
+            <li>✔ Constructor Functions</li>
+            <li>✔ Object.create()</li>
+            <li>✔ Prototype Methods</li>
+            <li>✔ Classes & Objects</li>
+            <li>✔ Inheritance (extends & super)</li>
+            <li>✔ Encapsulation & Private Fields</li>
+            <li>✔ Bank Account System</li>
+            <li>✔ Employee Management System</li>
+            <li>✔ Student Grade System</li>
+            <li>✔ Library Management System</li>
+        </ul>
+
+        <h2>💻 How to View Output</h2>
+
+        <p>
+            Open the browser's <strong>Developer Console (F12)</strong> and navigate
+            to the <strong>Console</strong> tab to view the output of all practice
+            programs.
+        </p>
+
+        <h2>🎯 Goal</h2>
+
+        <p>
+            The purpose of this repository is to strengthen my understanding of
+            JavaScript Object-Oriented Programming by implementing real-world
+            examples, improving logical thinking, and writing clean, reusable code.
+        </p>
+
+        <hr>
+
+        <p class="author">
+            Built with ❤️ by <span>Ravsaheb Vagre</span>
+        </p>
+
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
